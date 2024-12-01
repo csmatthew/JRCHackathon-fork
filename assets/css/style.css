@@ -92,11 +92,11 @@ h1 {
 #paddle {
   position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: 50%; /* sets left edge of paddle */
   width: 100px;
   height: 10px;
-  background-color: white;
-  /* transform: translateX(-50%); taken out */
+  background-color: blue;
+  transform: translateX(-50%); /* shifts paddle 50% of its own width */
 }
 
 #ball {
